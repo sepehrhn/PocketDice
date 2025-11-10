@@ -1,7 +1,7 @@
 # File: README.md
 # PocketDice
 
-Lightweight proximity dice rolls for **Paper/Purpur 1.21.4**.
+Lightweight proximity dice rolls for **Paper/Purpur 1.21.x**.
 
 ## What it does
 - `/roll [NdM]` — roll N dice with M faces.  
@@ -16,7 +16,7 @@ Lightweight proximity dice rolls for **Paper/Purpur 1.21.4**.
 ### Minecraft versions
 | MC Version | Status | Notes |
 |---|---|---|
-| 1.21 – 1.21.4 | ✅ Supported | Built against the 1.21 API (`api-version: "1.21"`). |
+| 1.21.x | ✅ Supported | Built against the 1.21 API (`api-version: "1.21"`). |
 | < 1.21 | ❌ Not supported | Requires MC 1.21.x. |
 
 ### Server software
