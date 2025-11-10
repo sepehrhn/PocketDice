@@ -11,16 +11,6 @@ Lightweight proximity dice rolls for **Paper/Purpur 1.21.4**.
 - Permissions: `pocketdice.roll` (true), `pocketdice.reload` (op).
 - Admin: `/pocketdice reload` — reloads config & messages.
 
-## Config (`plugins/PocketDice/config.yml`)
-```yml
-radius: 16
-default_notation: "1d100"
-max_dice: 50
-max_faces: 1000
-message_format: "[PocketDice] {player} rolled {notation}: {results} (total {total})"
-error_format: "[PocketDice] {message}"
-allow_shorthand_d: true
-
 ## Compatibility
 
 ### Minecraft versions
@@ -39,3 +29,13 @@ allow_shorthand_d: true
 | **Fabric / Forge / NeoForge / Quilt** | ❌ | Not applicable (those are mod loaders, not Bukkit/Paper). |
 
 **Java:** Use Java 21 (required for MC 1.21.x servers).
+
+## Config (`plugins/PocketDice/config.yml`)
+```yml
+radius: 16
+default_notation: "1d100"
+max_dice: 50
+max_faces: 1000
+message_format: "[PocketDice] {player} rolled {notation}: {results} (total {total})"
+error_format: "[PocketDice] {message}"
+allow_shorthand_d: true
