@@ -20,3 +20,22 @@ max_faces: 1000
 message_format: "[PocketDice] {player} rolled {notation}: {results} (total {total})"
 error_format: "[PocketDice] {message}"
 allow_shorthand_d: true
+
+## Compatibility
+
+### Minecraft versions
+| MC Version | Status | Notes |
+|---|---|---|
+| 1.21 – 1.21.4 | ✅ Supported | Built against the 1.21 API (`api-version: "1.21"`). |
+| < 1.21 | ❌ Not supported | Requires MC 1.21.x. |
+
+### Server software
+| Server | 1.21.x | Notes |
+|---|---:|---|
+| **Purpur** | ✅ | Primary target; tested. |
+| **Paper** | ✅ | Supported; no Paper-only APIs used. |
+| **Spigot** | ✅ | Supported via Bukkit API. |
+| **Folia** | ⚠️ | Untested; should work if everything runs on main thread. |
+| **Fabric / Forge / NeoForge / Quilt** | ❌ | Not applicable (those are mod loaders, not Bukkit/Paper). |
+
+**Java:** Use Java 21 (required for MC 1.21.x servers).
